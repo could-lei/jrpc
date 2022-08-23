@@ -1,6 +1,9 @@
 package provider;
 
+import framework.Protocol;
+import framework.ProtocolFactory;
 import framework.URL;
+import protocol.Http.HttpProtocol;
 import protocol.Http.HttpServer;
 import provider.api.HelloService;
 import provider.impl.HelloServiceImpl;
@@ -14,7 +17,7 @@ public class Provider {
         URL url=new URL("localhost",8080);
         Register.regist(url, HelloService.class.getName(), HelloServiceImpl.class);
 
-        HttpServer server=new HttpServer();
-        server.start(url.getHostname(),url.getPort());
+        Protocol protocol= ProtocolFactory.getProtocol();
+        protocol.start(url);
     }
 }
