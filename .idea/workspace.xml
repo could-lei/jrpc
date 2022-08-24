@@ -23,59 +23,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22d5f3c4-b237-45fc-bce9-a61a5d863cd6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_46.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_48_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_48_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_48_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_48_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_48_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_48_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_48_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_48_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_yetus_audience_annotations_0_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_5_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_jute_3_5_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/HelloService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/ZookeeperUtil/ZookeeperUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/Cunsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/ProxyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framwork/src/main/java/framwork/Invocation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framwork/src/main/java/framwork/Protocol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framwork/src/main/java/framwork/ProtocolFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framwork/src/main/java/framwork/URL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framwork/src/main/java/register/Register.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider/src/main/java/Provider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_51_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framwork/src/main/java/protocol/Netty/ChannelInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framwork/src/main/java/protocol/Netty/NettyProtocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framwork/src/main/java/protocol/Netty/NettyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framwork/src/main/java/protocol/Netty/ServerChannelDuplexHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framwork/src/main/java/protocol/Netty/ServerHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/api/api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/target/api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/api/target/api-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common/common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/common-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer/consumer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/consumer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/target/classes/Cunsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/target/classes/Cunsumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/target/consumer-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/target/consumer-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/framwork/framwork.iml" beforeDir="false" afterPath="$PROJECT_DIR$/framwork/framwork.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framwork/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/framwork/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framwork/target/framwork-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/framwork/target/framwork-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jrpc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jrpc.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/provider/provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/provider/provider.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/consumer/Cunsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/consumer/Cunsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/framework/ProtocolFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/framework/ProtocolFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/framework/ProxyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/framework/ProxyFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/protocol/Http/DispathServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/framwork/src/main/java/protocol/Http/DispathServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/protocol/Http/HttpCient.java" beforeDir="false" afterPath="$PROJECT_DIR$/framwork/src/main/java/protocol/Http/HttpCient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/protocol/Http/HttpProtocol.java" beforeDir="false" afterPath="$PROJECT_DIR$/framwork/src/main/java/protocol/Http/HttpProtocol.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/protocol/Http/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/framwork/src/main/java/protocol/Http/HttpServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/protocol/Http/HttpServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/framwork/src/main/java/protocol/Http/HttpServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/provider/Provider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/provider/api/HelloService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/provider/impl/HelloServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/java/HelloServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/register/Register.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/provider/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/target/provider-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/provider/target/provider-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/consumer/Cunsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/framework/Invocation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/framework/Protocol.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/framework/ProtocolFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/framework/ProxyFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/framework/URL.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,8 +63,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -118,6 +92,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/provider/src/main/java/provider" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15459883" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -471,7 +446,7 @@
       <workItem from="1661243269889" duration="21000" />
       <workItem from="1661255734083" duration="6033000" />
       <workItem from="1661304973455" duration="18638000" />
-      <workItem from="1661330210683" duration="2166000" />
+      <workItem from="1661330210683" duration="5837000" />
     </task>
     <servers />
   </component>
@@ -495,10 +470,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1661324957148" />
-    <state x="285" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1661319184125">
+    <state x="285" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1661342403721">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="285" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1661319184125" />
+    <state x="285" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1661342403721" />
     <state x="736" y="383" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1661331023451">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -511,22 +486,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="260" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1661305657036" />
-    <state width="1877" height="268" key="GridCell.Tab.0.bottom" timestamp="1661331794905">
+    <state width="916" height="270" key="GridCell.Tab.0.bottom" timestamp="1661339159133">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1661331794905" />
-    <state width="1877" height="268" key="GridCell.Tab.0.center" timestamp="1661331794905">
+    <state width="916" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1661339159133" />
+    <state width="916" height="270" key="GridCell.Tab.0.center" timestamp="1661339159133">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="268" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1661331794905" />
-    <state width="1877" height="268" key="GridCell.Tab.0.left" timestamp="1661331794905">
+    <state width="916" height="270" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1661339159133" />
+    <state width="916" height="270" key="GridCell.Tab.0.left" timestamp="1661339159133">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="268" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1661331794905" />
-    <state width="1877" height="268" key="GridCell.Tab.0.right" timestamp="1661331794905">
+    <state width="916" height="270" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1661339159133" />
+    <state width="916" height="270" key="GridCell.Tab.0.right" timestamp="1661339159133">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="268" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1661331794905" />
+    <state width="916" height="270" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1661339159133" />
     <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1661330705219">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

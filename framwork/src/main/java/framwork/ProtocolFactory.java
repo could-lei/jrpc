@@ -1,6 +1,7 @@
 package framwork;
 
 import protocol.Http.HttpProtocol;
+import protocol.Netty.NettyProtocol;
 
 /**
  * Created by next on 2022/8/23.
@@ -12,9 +13,8 @@ public class ProtocolFactory {
         switch (name){
             case "http":
                 return new HttpProtocol();
-//                break;
-//            case "netty":
-
+            case "netty":
+                return new NettyProtocol();
         }
         return null;
     }
